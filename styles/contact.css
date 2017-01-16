@@ -1,0 +1,213 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+
+nav {
+    padding: 40px 20px;
+}
+
+ul.menu {
+    float: right;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+ul.menu li a {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: #AFB3BC;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0 10px;
+    letter-spacing: 1px;
+}
+
+ul.menu li a.negro {
+    color: #000000;
+    margin-right: 0;
+}
+
+/* SECCIÓN CONTACTO */
+
+section.contacto {
+    text-align: center;
+    background: url("../assets/indexbanner-bg2.jpg") no-repeat;
+    padding: 100px 0 150px 0;
+    background-size: cover;
+}
+
+section.contacto h1 {
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Open Sans';
+    margin-bottom: 50px;
+    font-weight: 800;
+}
+
+section.contacto p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    width: 42%;
+    margin: auto;
+    line-height: 35px;
+}
+
+/* SECCIÓN FORMULARIO */
+
+section.formulario {
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+section.formulario h2 {
+    font-family: 'Open Sans';
+    font-weight: 800;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+section.formulario p {
+    text-align: center;
+    font-family: 'Raleway';
+    color: #BDBDBD;
+    margin-bottom: 80px;
+}
+
+form .izq, form .der {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+form .izq input {
+    display: block;
+    width: 100%;
+    margin-bottom: 17px;
+    padding: 18px;
+    border: none;
+    border: 1px solid #E0E4E5;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+}
+
+form .der {
+    margin-left: 1%;
+}
+
+form .der textarea {
+    width: 100%;
+    padding: 13px;
+    resize: none;
+    border: none;
+    border: 1px solid #E0E4E5;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+}
+
+form .btn-enviar {
+    text-align: center;
+}
+
+form .btn-enviar input {
+    border: none;
+    margin-top: 15px;
+    background: #00AEF3;
+    padding: 15px 40px;
+    border-radius: 3px;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+/* PARA ESTILAR LOS PLACEHOLDER */
+
+::-webkit-input-placeholder {
+  font-family: 'Open Sans';
+  color: #E0E4E5;
+}
+::-moz-placeholder {
+  font-family: 'Open Sans';
+  color: #E0E4E5;
+}
+:-ms-input-placeholder {
+  font-family: 'Open Sans';
+  color: #E0E4E5;
+}
+:-moz-placeholder {
+  font-family: 'Open Sans';
+  color: #E0E4E5;
+}
+
+/* FOOTER */
+
+footer {
+    background: #142E3F;
+    padding-top: 70px;
+}
+
+footer h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+footer h2 span {
+    color: #00B0F4;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+div.datos {
+    background: #091722;
+    margin-top: 70px;
+    padding: 35px 0;
+}
+
+div.datos p {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    display: inline-block;
+}
+
+div.datos ul {
+    float: right;
+}
+
+div.datos ul li {
+    display: inline-block;
+}
+
+div.datos li a[href*="index"]{
+    margin-right: 30px;
+}
+
+div.datos ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
